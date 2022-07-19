@@ -1,5 +1,5 @@
 VERSION BUILD=1011 RECORDER=CR
-URL GOTO=https://replit.com/@befox7/p2p-1?v=1
+URL GOTO=https://replit.com/@replp2p/p2p?v=1
 WAIT SECONDS=10
 TAG SELECTOR="#main-content>DIV:nth-of-type(3)>DIV>DIV>DIV:nth-of-type(2)>DIV>BUTTON"
 WAIT SECONDS=20
