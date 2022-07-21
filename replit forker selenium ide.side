@@ -1,0 +1,102 @@
+{
+  "id": "abc63210-d0ab-4dac-b490-0d80da5072b7",
+  "version": "2.0",
+  "name": "replit forker",
+  "url": "https://replit.com",
+  "tests": [{
+    "id": "0fd28f4d-de55-4621-aac1-b2f7756a1f3c",
+    "name": "t",
+    "commands": [{
+      "id": "84a481ef-c3c9-4d02-a34d-cc6de51021c0",
+      "comment": "",
+      "command": "times",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f880226-98bb-4671-b455-e9af44f5f24e",
+      "comment": "",
+      "command": "open",
+      "target": "/@replp2p/p2p",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b8c723e-f755-4d1d-9b5a-d475d9a1e4ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x992",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "885eda11-09fe-492f-bb69-f9d063e75b72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=downshift-1-toggle-button",
+      "targets": [
+        ["id=downshift-1-toggle-button", "id"],
+        ["css=#downshift-1-toggle-button", "css:finder"],
+        ["xpath=//button[@id='downshift-1-toggle-button']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[3]/div/div/div/div/div/span[2]/div/button", "xpath:idRelative"],
+        ["xpath=//span[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f8f99ce-d07b-47c6-a331-50a16a7f3d76",
+      "comment": "",
+      "command": "click",
+      "target": "id=downshift-1-toggle-button",
+      "targets": [
+        ["id=downshift-1-toggle-button", "id"],
+        ["css=#downshift-1-toggle-button", "css:finder"],
+        ["xpath=//button[@id='downshift-1-toggle-button']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[3]/div/div/div/div/div/span[2]/div/button", "xpath:idRelative"],
+        ["xpath=//span[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "635ca02e-c61f-48ef-80d6-9c883ecd2fe3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=downshift-1-toggle-button",
+      "targets": [
+        ["id=downshift-1-toggle-button", "id"],
+        ["css=#downshift-1-toggle-button", "css:finder"],
+        ["xpath=//button[@id='downshift-1-toggle-button']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div[3]/div/div/div/div/div/span[2]/div/button", "xpath:idRelative"],
+        ["xpath=//span[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6c58145-9a73-4315-b1ec-9ee04e551c87",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MidCraft",
+      "targets": [
+        ["linkText=MidCraft", "linkText"],
+        ["css=.css-1fhdh9a:nth-child(1) .css-wzynpy", "css:finder"],
+        ["xpath=//main[@id='main-content']/div[3]/div/div/aside/div/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/@qwertyuiop50/MidCraft?v=1')]", "xpath:href"],
+        ["xpath=//aside/div/div/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MidCraft')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07750d48-0d8f-49f6-b58d-3d7634fb8ef0",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "785d2f79-224f-4f60-b320-6706b62b146e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0fd28f4d-de55-4621-aac1-b2f7756a1f3c"]
+  }],
+  "urls": ["https://replit.com/"],
+  "plugins": []
+}
